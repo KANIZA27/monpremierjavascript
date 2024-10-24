@@ -40,25 +40,24 @@ Si la note est EGALE 10, on affiche insuffisat
 j'ai besoin d'utiliser une variable nommée note pour stocker la note de l'élèves
 Ensuite, je code la condition.
 */
-let note1 = 10;
-if(note1 == 10){
- // alert("moyen");
+
+if(note == 10){
+  alert("moyen");
 }
 /* Lecture et analyse le besoin
 Si la note est EGALE 12, on affiche insuffisat
 j'ai besoin d'utiliser une variable nommée note pour stocker la note de l'élèves
 Ensuite, je code la condition.
 */
-let note2 = 12;
-if(note2 == 12){
-    //alert("assez-bien");
+
+if(note == 12);{
+alert("assez-bien");
 }
 
-let note3 = 12;
-if(note3 > 11){//S'il est VRAI que la note est supérieure à 10
+if(note > 11){//S'il est VRAI que la note est supérieure à 10
   // Alors j'affiche le message "Bravo vous êtes admis!"
     console.log("Bravo! vous êtres admis!");
 }else{ // Sinon
-console.log("Désolé! vous n'avez pas été admis.");
+//console.log("Désolé! vous n'avez pas été admis.");
 }
 
